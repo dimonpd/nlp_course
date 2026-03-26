@@ -7,7 +7,7 @@ node_modules
 *~
 *.swp
 
-
+*.vec
 
 env.sh
 # Byte-compiled / optimized / DLL files
@@ -75,3 +75,4 @@ debian/reproducible-experiment-platform
 debian/files
 *.substvars
 *.debhelper.log
+*.zip
