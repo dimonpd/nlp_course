@@ -13,6 +13,7 @@ dependencies = [
     "nltk>=3.9.3",
     "numpy>=2.4.3",
     "pandas>=3.0.1",
+    "pexpect>=4.9.0",
     "polars>=1.39.0",
     "scikit-learn>=1.8.0",
 ]
