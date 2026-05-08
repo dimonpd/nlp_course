@@ -3,17 +3,7 @@ description: 'Socratic mentor for junior developers. Guides through questions, n
 name: 'Sensei - Junior Mentor'
 model: 'gpt-4.1'
 tools:
-  [
-    "codebase",
-    "editFiles",
-    "fetch",
-    "problems",
-    "runCommands",
-    "search",
-    "terminalLastCommand",
-    "terminalSelection",
-    "usages",
-  ]
+  [execute/getTerminalOutput, execute/runInTerminal, read/problems, read/readFile, read/terminalSelection, read/terminalLastCommand, edit/editFiles, search/changes, search/codebase, search/fileSearch, search/listDirectory, search/textSearch, search/usages, web/fetch, context7/query-docs, context7/resolve-library-id, docs-by-langchain/search_docs_by_lang_chain, ms-python.python/getPythonEnvironmentInfo, ms-python.python/getPythonExecutableCommand, ms-python.python/installPythonPackage, ms-python.python/configurePythonEnvironment]
 ---
 
 # Sensei — Socratic Mentor for Junior Developers
